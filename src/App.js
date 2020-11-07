@@ -6,7 +6,7 @@ import {Modal, ModalBody, ModalFooter, ModalHeader} from 'reactstrap';
 
 function App() {
 
-  const baseUrl = "https://localhost:44334/api/marcas";
+  const baseUrl = "https://192.168.1.74:44334/api/marcas";
   const [data, setData] = useState([]);
   const [modalEditar, setModalEditar] = useState(false);
   const [modalInsertar, setModalInsertar] = useState(false); 
